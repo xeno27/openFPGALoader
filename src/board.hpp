@@ -144,6 +144,8 @@ static std::map <std::string, target_board_t> board_list = {
 	JTAG_BOARD("de10lite",        "", "usb-blaster",0, 0, CABLE_DEFAULT),
 	JTAG_BOARD("de10nano",        "", "usb-blasterII",0, 0, CABLE_DEFAULT),
 	JTAG_BOARD("de1Soc",          "5CSEMA5", "usb-blasterII",0, 0, CABLE_DEFAULT),
+	/* most max10 boards uses the same pinout -> max 10 generic */
+	JTAG_BOARD("max10-generic",        "", "usb-blaster",0, 0, CABLE_DEFAULT),
 	JTAG_BOARD("deca",            "10M50DA", "usb-blasterII",0, 0, CABLE_DEFAULT),
 	JTAG_BOARD("ecp5_evn",        "", "ft2232",     0, 0, CABLE_DEFAULT),
 	JTAG_BOARD("ecpix5",          "", "ecpix5-debug", 0, 0, CABLE_DEFAULT),
